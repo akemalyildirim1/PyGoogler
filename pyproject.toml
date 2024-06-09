@@ -27,6 +27,15 @@ types-requests = "^2.32.0.20240602"
 pytest-mock = "^3.14.0"
 pre-commit = "^3.7.1"
 
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "0.1.0"
+version_scheme = "pep440"
+version_provider = "poetry"
+update_changelog_on_bump = true
+major_version_zero = true
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
