@@ -48,7 +48,7 @@ strict_optional = false
 [tool.coverage.run]
 branch = true
 source = ["pygoogler"]
-omit = ["pygoogler/cli/*", ]
+omit = ["pygoogler/cli/*", "pygoogler/__main__.py"]
 
 [tool.coverage.report]
 skip_empty = true
